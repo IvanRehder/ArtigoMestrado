@@ -1,16 +1,12 @@
-% CAPÍTULO 3: DESCRIÇÃO DA SUA PROPOSTA OU CONTRIBUIÇÃO
-%   ESSE É O CAPÍTULO MAIS IMPORTANTE DE SEU TRABALHO
-
-
-%1. Elabore um parágrafo que introduz o capítulo: Este capítulo apresenta(descreva o objetivo do  capítulo...). É constituído de N seções a saber...
-%2. Caso você tenha dúvida do nível de detalhamento da descrição, coloque-se no lugar do leitor!
-%3. Elabore um parágrafo que conclui o capítulo e introduz o capítulo seguinte.
-
 This chapter describes the method proposed in this work for evaluating assistive devices using virtual reality. The method is organized into 5 phases, further decomposed into 10 steps, as illustrated in Figure \ref{fig:diag_metodologia}.
 
 
-\input{Metodologia/diagram}
-
+%\input{Metodologia/diagram}
+\begin{figure}[H]
+    \includegraphics[width = \linewidth]{Metodologia/metodologia.pdf}
+    \caption{Method's diagram}
+    \label{fig:diag_metodologia}
+\end{figure}
 
 The first phase is the context definition. It consists of defining the main features of the environment in which the assistive device will be used, based on interviews from specialists. It also includes a step for understanding the limitations of the current assistive devices and defining the main features of assistive devices to be designed. This last step is based on interviews with BVI users.
 
@@ -134,7 +130,11 @@ In order to illustrate it, the proposed method is applied to the evaluation of a
             \item Leave the room when called.
         \end{enumerate}
         
-        \input{Metodologia/tasks}
+        \begin{figure}[H]
+            \includegraphics[width = \linewidth]{Metodologia/caminho.pdf}
+            \caption{Scheduled task of the experiment and their order.}
+            \label{fig:task_diagram}
+        \end{figure}
         
         These tasks should engage the user and make it navigate through the room. The purpose is to verify if he/she can draw a mental map of the scene and use the available information about obstacles to avoid them when needed. These sources of distraction were added in order to increase the immersion and to be a distraction as well. Otherwise, the virtual scene would not replicate the reality of a reception scenario.
 
@@ -185,7 +185,7 @@ In order to illustrate it, the proposed method is applied to the evaluation of a
             \item Situation awareness;
         \end{enumerate}
 
-        A modified SAGAT (Situation Awareness Global Assessment Technique) questionnaire is used to evaluate the BVI situation awareness. This questionnaire was based on the proposed idea of \citeonline{endsley1988design} and is presented in Appendix \ref{apsec:sagat}. The actor acting as the receptionist questioned when the user sat at the reception desk.
+        A modified SAGAT (Situation Awareness Global Assessment Technique) questionnaire is used to evaluate the BVI situation awareness. This questionnaire was based on the proposed idea of \cite{endsley1988design} and is presented in Appendix \ref{apsec:sagat}. The actor acting as the receptionist questioned when the user sat at the reception desk.
 
         As the original idea, the proposed version is based on 3 levels of situation awareness:
 

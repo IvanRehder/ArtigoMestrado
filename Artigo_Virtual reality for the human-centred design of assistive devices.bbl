@@ -1,0 +1,131 @@
+\begin{thebibliography}{18}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[wor(2019)]{world2019world}
+World report on vision.
+\newblock Technical report, 2019.
+
+\bibitem[Bourne et~al.(2021)Bourne, Steinmetz, Flaxman, Briant, Taylor,
+  Resnikoff, Casson, Abdoli, Abu-Gharbieh, Afshin, et~al.]{bourne2021trends}
+Rupert Bourne, Jaimie~D Steinmetz, Seth Flaxman, Paul~Svitil Briant, Hugh~R
+  Taylor, Serge Resnikoff, Robert~James Casson, Amir Abdoli, Eman Abu-Gharbieh,
+  Ashkan Afshin, et~al.
+\newblock Trends in prevalence of blindness and distance and near vision
+  impairment over 30 years: an analysis for the global burden of disease study.
+\newblock \emph{The Lancet global health}, 9\penalty0 (2):\penalty0 e130--e143,
+  2021.
+
+\bibitem[Bradley and Dunlop(2002)]{bradley2002investigating}
+Nicholas~A Bradley and Mark~D Dunlop.
+\newblock Investigating context-aware clues to assist navigation for visually
+  impaired people.
+\newblock In \emph{Proceedings of Workshop on Building Bridges:
+  Interdisciplinary Context-Sensitive Computing, University of Glasgow}, 2002.
+
+\bibitem[Bradley and Dunlop(2005)]{bradley2005experimental}
+Nicholas~A Bradley and Mark~D Dunlop.
+\newblock An experimental investigation into wayfinding directions for visually
+  impaired people.
+\newblock \emph{Personal and Ubiquitous Computing}, 9\penalty0 (6):\penalty0
+  395--403, 2005.
+
+\bibitem[Chiu(2002)]{chiu2002organizational}
+Mao-Lin Chiu.
+\newblock An organizational view of design communication in design
+  collaboration.
+\newblock \emph{Design studies}, 23\penalty0 (2):\penalty0 187--210, 2002.
+
+\bibitem[Endsley(1988)]{endsley1988design}
+Mica~R Endsley.
+\newblock Design and evaluation for situation awareness enhancement.
+\newblock In \emph{Proceedings of the Human Factors Society annual meeting},
+  volume~32, pages 97--101. Sage Publications Sage CA: Los Angeles, CA, May
+  1988.
+
+\bibitem[Endsley(1995)]{endsley1995measurement}
+Mica~R Endsley.
+\newblock Measurement of situation awareness in dynamic systems.
+\newblock \emph{Human factors}, 37\penalty0 (1):\penalty0 65--84, 1995.
+
+\bibitem[Endsley(2018)]{endsley2018automation}
+Mica~R Endsley.
+\newblock Automation and situation awareness.
+\newblock In \emph{Automation and human performance: Theory and applications},
+  pages 163--181. CRC Press, 2018.
+
+\bibitem[Farrell(2018)]{farrell2018learning}
+Wendy~A Farrell.
+\newblock Learning becomes doing: Applying augmented and virtual reality to
+  improve performance.
+\newblock \emph{Performance Improvement}, 57\penalty0 (4):\penalty0 19--28,
+  2018.
+
+\bibitem[Kirner et~al.(2011)Kirner, Kirner, Wataya, and
+  Valente]{kirner2011using}
+Claudio Kirner, Tereza~Gon{\c{c}}alves Kirner, Roberto~Sussumu Wataya, and
+  Jos{\'e}~Armando Valente.
+\newblock Using augmented reality to support the understanding of
+  three-dimensional concepts by blind people.
+\newblock 2011.
+
+\bibitem[kylecorry31(2020)]{kylecorry31_instructables_2020}
+kylecorry31.
+\newblock Haptic compass belt, Jul 2020.
+\newblock URL \url{https://www.instructables.com/Haptic-Compass-Belt/}.
+
+\bibitem[Lozano et~al.(2009)Lozano, Kaczmarek, and
+  Santello]{lozano2009electrotactile}
+Cecil~A Lozano, Kurt~A Kaczmarek, and Marco Santello.
+\newblock Electrotactile stimulation on the tongue: Intensity perception,
+  discrimination, and cross-modality estimation.
+\newblock \emph{Somatosensory \& motor research}, 26\penalty0 (2-3):\penalty0
+  50--63, 2009.
+
+\bibitem[Moerland-Masic et~al.(2021)Moerland-Masic, Reimer, Bock, Meller, and
+  Nagel]{moerland2021application}
+Ivana Moerland-Masic, Fabian Reimer, Thomas~M Bock, Frank Meller, and Bj{\"o}rn
+  Nagel.
+\newblock Application of vr technology in the aircraft cabin design process.
+\newblock \emph{CEAS Aeronautical Journal}, pages 1--10, 2021.
+
+\bibitem[Sanders and McCormick(1998)]{sanders1998human}
+Mark~S Sanders and Ernest~James McCormick.
+\newblock Human factors in engineering and design.
+\newblock \emph{Industrial Robot: An International Journal}, 1998.
+
+\bibitem[Siu et~al.(2020)Siu, Sinclair, Kovacs, Ofek, Holz, and
+  Cutrell]{siu2020virtual}
+Alexa~F Siu, Mike Sinclair, Robert Kovacs, Eyal Ofek, Christian Holz, and
+  Edward Cutrell.
+\newblock Virtual reality without vision: A haptic and auditory white cane to
+  navigate complex virtual worlds.
+\newblock In \emph{Proceedings of the 2020 CHI conference on human factors in
+  computing systems}, pages 1--13, 2020.
+
+\bibitem[Stanton et~al.(2004)Stanton, Hedge, Brookhuis, Salas, and
+  Hendrick]{stanton2004handbook}
+Neville~Anthony Stanton, Alan Hedge, Karel Brookhuis, Eduardo Salas, and Hal~W
+  Hendrick.
+\newblock \emph{Handbook of human factors and ergonomics methods}.
+\newblock CRC press, 2004.
+
+\bibitem[Wang et~al.(2010)Wang, Mao, Zeng, Gong, Li, and Chen]{wang2010new}
+Sa~Wang, Zhengli Mao, Changhai Zeng, Huili Gong, Shanshan Li, and Beibei Chen.
+\newblock A new method of virtual reality based on unity3d.
+\newblock In \emph{2010 18th international conference on Geoinformatics}, pages
+  1--5. IEEE, 2010.
+
+\bibitem[Wolf et~al.(2019)Wolf, Binder, Miehling, and
+  Wartzack]{wolf2019towards}
+Alexander Wolf, Nicole Binder, J{\"o}rg Miehling, and Sandro Wartzack.
+\newblock Towards virtual assessment of human factors: A concept for data
+  driven prediction and analysis of physical user-product interactions.
+\newblock In \emph{Proceedings of the Design Society: International Conference
+  on Engineering Design}, volume~1, pages 4029--4038. Cambridge University
+  Press, 2019.
+
+\end{thebibliography}
