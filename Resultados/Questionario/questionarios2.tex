@@ -1,0 +1,103 @@
+\subsubsection{Guidance method's questionnaire.}
+\label{subsubsec:results_questionnaires_2}
+
+As for the blind users, the sighted user also answered the Guidance questionnaire to give their thoughts about their experience with the guidance methods. Table \ref{tab:questionnaire_average} shows the score of both groups. As said before, the higher the value, the higher is the user satisfaction. The corresponding barplots are presented in Figure \ref{fig:barplot_questionnaire_scene_blind_sight}. Both groups prefer audio  and mixture methods. The difference lies in the preference between the haptic belt and virtual cane. The blind users tend to prefer the first one, while the sighted users tend to prefer the last.
+
+\input{Resultados/Questionario/Tabelas/questionnaire_average.tex}
+
+\begin{figure}[!htb]
+    \centering
+    \begin{minipage}{\textwidth}
+        \centering
+        \includegraphics[width = \textwidth]{Resultados/Questionario/Figuras/pdf/barplot_questionnaire_scene_blind.pdf}
+        \subcaption{Blind participants.}
+        \label{fig:barplot_questionnaire_scene_blind_2}
+    \end{minipage}
+    \begin{minipage}{\textwidth}
+        \centering
+        \includegraphics[width = \textwidth]{Resultados/Questionario/Figuras/pdf/barplot_questionnaire_scene_sight.pdf}
+        \subcaption{Sighted participants.}
+        \label{fig:barplot_questionnaire_scene_sight}
+    \end{minipage}
+    \caption{Barplot of the average questionaire score on each method.}
+    \label{fig:barplot_questionnaire_scene_blind_sight}
+\end{figure}
+%\begin{figure}[!htb]
+%    \centering
+%    \includegraphics[width = \textwidth]{Resultados/Questionario/Figuras/png/barplot_questionnaire_scene.png}
+%    \caption{Barplot of the  average questionaire score of both participants on each method.}
+%    \label{fig:barplot_questionnaire_scene}
+%\end{figure}
+
+The Figure \ref{fig:boxplot_questionnaire_scene} presents the box plot with the distribution of the scores. It is possible to see that there is some similarity between the two groups, except for the virtual cane method, which has a broader distribution for the sighted users. Also, it seems that the audio and mixture have similar acceptance for sighted and blind users.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width = 0.45\textwidth]{Resultados/Questionario/Figuras/pdf/boxplot_questionnaire_scene.pdf}
+    \caption{Boxplot of the questionaire score of the the participants grouped by the methods.}
+    \label{fig:boxplot_questionnaire_scene}
+\end{figure}
+
+%The Table \ref{tab:questionnaire_average_group} show the the average questionnaire score on each method of both groups and it shows the same conclusion as the Figure \ref{fig:barplot_questionnaire_scene}, that the preference between the "Haptic Belt" and "Virtual Cane" is the only difference between the two groups.
+%
+%Considering the most preferable and the less preferable of each group, the blind users are score their choices more intesiver than the sighted users. This may be an effect from their previous experience with the "Audio" method in previous events before the experiment and with haptic devices were something very, or almost, new. For the sighted users everything was new, so there scores were more consistent. This is posible to see in the average and standar deviation of these scores. For the blind users is 0.7 and 0.164 and for the sighted user is 0.682 and 0.100.
+%
+%\input{Resultados/Questionario/Tabelas/questionnaire_average_group}
+
+Figures \ref{fig:qqplot_questionnaire_sight} and \ref{fig:residplot_questionnaire_sight} brings the QQ plot and residual distribution, which confirm that ANOVA can be applied. The result of ANOVA is presented in Table \ref{tab:blocanova_questionnaire_blind_sight} and indicates that the method is an effective variable for the sighted participants, as it is for the blind ones.
+
+\begin{table}[!htb]
+    \caption{Anova p-value for the questionnaire score on each method}
+    \label{tab:blocanova_questionnaire_blind_sight}
+\begin{minipage}{0.45\textwidth}
+    \subcaption{Blind participants.}
+    \input{Resultados/Questionario/Tabelas/blocanova_questionnaire_blindSemBegin.tex}
+\end{minipage}
+\begin{minipage}{0.45\textwidth}
+    \subcaption{Sight participants.}
+    \input{Resultados/Questionario/Tabelas/blocanova_questionnaire_sightSemBegin.tex}
+\end{minipage}
+\end{table}
+
+\begin{figure}[!htb]
+    \centering
+    %\vspace{-15.0cm}
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width = \textwidth]{Resultados/Questionario/Figuras/pdf/qqplot_questionnaire_sight.pdf}
+        \caption{QQ plot of the questionnaire score of the sighted participants on each method.}
+        \label{fig:qqplot_questionnaire_sight}
+    \end{minipage}
+    \begin{minipage}{0.075\textwidth}
+        \hfill
+    \end{minipage}
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width = \textwidth]{Resultados/Questionario/Figuras/pdf/residplot_questionnaire_sight.pdf}
+        \caption{Residual plot of the questionnaire score the sighted participants on each method.}
+        \label{fig:residplot_questionnaire_sight}
+    \end{minipage}
+\end{figure}
+
+Table \ref{tab:lsd_questionnaire_blind_sight} presents the conclusion of a pairwise Fisher LSD test between all the guidance methods for both groups, showing that the results are coincident.
+
+\FloatBarrier
+
+\begin{table}[!thb]
+    \caption{Anova p-value for the mental demand average on each method'}
+    \label{tab:lsd_questionnaire_blind_sight}
+    \begin{minipage}{1\textwidth}
+        \subcaption{Blind participants.}
+        \input{Resultados/Questionario/Tabelas/lsd_questionnaire_blindSemBegin.tex}
+    \end{minipage}
+    \begin{minipage}{1\textwidth}
+        \subcaption{Sight participants.}
+        \input{Resultados/Questionario/Tabelas/lsd_questionnaire_sightSemBegin.tex}
+    \end{minipage}
+\end{table}
+
+%\input{Resultados/Questionario/Tabelas/lsd_questionnaire.tex}
+
+%The LSD Table \ref{tab:lsd_questionnaire_sight} repeat the same conclusion of the blind participants, that only the "Audio" and "Mixture" are statistically the same. But that does not mean that both groups had the same opinion from the rest of the methods. As shown in the Figure \ref{fig:boxplot_questionnaire_scene}, the average sighted user rather use the "Virtual Cane" then the "Haptic Belt", despite that distribution being wider, hence more varied, meaning that this is hardly a consense between the users.
+
+%\FloatBarrier
