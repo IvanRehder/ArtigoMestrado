@@ -11,45 +11,45 @@ Warning--empty institution in world2019world
 Warning--can't use both volume and number fields in endsley1988design
 Warning--empty journal in kirner2011using
 Warning--can't use both volume and number fields in wolf2019towards
-You've used 18 entries,
+You've used 16 entries,
             2773 wiz_defined-function locations,
-            706 strings with 8749 characters,
-and the built_in function-call counts, 9095 in all, are:
-= -- 809
-> -- 542
-< -- 17
-+ -- 186
-- -- 168
-* -- 734
-:= -- 1364
-add.period$ -- 57
-call.type$ -- 18
-change.case$ -- 109
-chr.to.int$ -- 18
-cite$ -- 43
-duplicate$ -- 417
-empty$ -- 730
-format.name$ -- 191
-if$ -- 1927
+            693 strings with 8406 characters,
+and the built_in function-call counts, 8086 in all, are:
+= -- 721
+> -- 475
+< -- 15
++ -- 163
+- -- 147
+* -- 656
+:= -- 1212
+add.period$ -- 50
+call.type$ -- 16
+change.case$ -- 96
+chr.to.int$ -- 16
+cite$ -- 39
+duplicate$ -- 373
+empty$ -- 650
+format.name$ -- 168
+if$ -- 1710
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 17
-newline$ -- 97
-num.names$ -- 68
-pop$ -- 237
+missing$ -- 16
+newline$ -- 87
+num.names$ -- 60
+pop$ -- 204
 preamble$ -- 1
-purify$ -- 91
+purify$ -- 80
 quote$ -- 0
-skip$ -- 329
+skip$ -- 293
 stack$ -- 0
-substring$ -- 328
-swap$ -- 69
-text.length$ -- 8
+substring$ -- 308
+swap$ -- 60
+text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 193
+type$ -- 171
 warning$ -- 6
-while$ -- 81
+while$ -- 72
 width$ -- 0
-write$ -- 238
+write$ -- 212
 (There were 6 warnings)

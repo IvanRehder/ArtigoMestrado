@@ -1,4 +1,4 @@
-\begin{thebibliography}{18}
+\begin{thebibliography}{16}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -72,11 +72,6 @@ Claudio Kirner, Tereza~Gon{\c{c}}alves Kirner, Roberto~Sussumu Wataya, and
   three-dimensional concepts by blind people.
 \newblock 2011.
 
-\bibitem[kylecorry31(2020)]{kylecorry31_instructables_2020}
-kylecorry31.
-\newblock Haptic compass belt, Jul 2020.
-\newblock URL \url{https://www.instructables.com/Haptic-Compass-Belt/}.
-
 \bibitem[Lozano et~al.(2009)Lozano, Kaczmarek, and
   Santello]{lozano2009electrotactile}
 Cecil~A Lozano, Kurt~A Kaczmarek, and Marco Santello.
@@ -112,12 +107,6 @@ Neville~Anthony Stanton, Alan Hedge, Karel Brookhuis, Eduardo Salas, and Hal~W
   Hendrick.
 \newblock \emph{Handbook of human factors and ergonomics methods}.
 \newblock CRC press, 2004.
-
-\bibitem[Wang et~al.(2010)Wang, Mao, Zeng, Gong, Li, and Chen]{wang2010new}
-Sa~Wang, Zhengli Mao, Changhai Zeng, Huili Gong, Shanshan Li, and Beibei Chen.
-\newblock A new method of virtual reality based on unity3d.
-\newblock In \emph{2010 18th international conference on Geoinformatics}, pages
-  1--5. IEEE, 2010.
 
 \bibitem[Wolf et~al.(2019)Wolf, Binder, Miehling, and
   Wartzack]{wolf2019towards}

@@ -9,7 +9,8 @@
 \usepackage{comment,enumerate}
 % Matemática
 \usepackage{amsmath,amsthm,amsfonts,amssymb,dsfont,mathtools}
-\usepackage{cancel}      % needed to show canceled terms in equations
+\newcommand{\msout}[1]{\text{\sout{\ensuremath{#1}}}}           % Adiciona a opção de fazer cortes em algarismos
+\usepackage{cancel}                                             % needed to show canceled terms in equations
 % ABNT
 \usepackage{blindtext}
 
@@ -68,8 +69,9 @@
 % Tabelas
 % ---
 \usepackage{boldline}
-\usepackage{multicol}    % allows text in multi columns
-\usepackage{multirow}    % allows text in multi columns
+\usepackage{booktabs}       % Adiciona \toprule e etc nas tabelas
+\usepackage{multicol}       % allows text in multi columns
+\usepackage{multirow}       % allows text in multi rows
 
 % ---
 % Tikz
