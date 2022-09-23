@@ -3,62 +3,57 @@
 
 The GSR analysis is based on the signal's average level. Each experiment's round is compared to the participant baseline collected before the experiment. The GSR sensor was worn on the left hand for right-handed participant and on the right hand for left-handed participants. One of the blind participants had the GSR sensor removed during the experiment because it was not appropriately fixed.
 
-Table \ref{tab:gsr_table_blind} presents the GSR average values for the three remaining participants. If the variation between the round and the Baseline is positive, it means that the user had an increase on his/her Mental Workload or stress. For all the participants, the baseline was smaller than the values obtained during the experiment, as expected. Moreover, in most cases, the skin conductance has risen from the first to the return, indicating an increase in the mental workload.
+%Table \ref{tab:gsr_table_blind} presents the GSR average values for the three remaining participants. If the variation between the round and the Baseline is positive, it means that the user had an increase on his/her Mental Workload or stress. For all the participants, the baseline was smaller than the values obtained during the experiment, as expected. Moreover, in most cases, the skin conductance has risen from the first to the return, indicating an increase in the mental workload.
 
-\input{Resultados/GSR/Tabelas/gsr_table_blind.tex}
+%\input{Resultados/GSR/Tabelas/gsr_table_blind.tex}
 
-Table \ref{tab:gsr_var_blind} brings the percentual increase in the GSR average compared to the baseline value. Figure \ref{fig:barplot_gsr_avg_5_scene_blind} shows the corresponding barplot. The presence of a haptic device causes an increase in the skin conductance, hence its mental workload. Also, it is possible to observe the increase in GSR average between the two rounds, except for the haptic belt.
+%Table \ref{tab:gsr_var_blind} brings the percentual increase in the GSR average compared to the baseline value. Figure \ref{fig:barplot_gsr_avg_5_scene_blind} shows the corresponding barplot. The presence of a haptic device causes an increase in the skin conductance, hence its mental workload. Also, it is possible to observe the increase in GSR average between the two rounds, except for the haptic belt.
 
-\input{Resultados/GSR/Tabelas/gsr_var_blind.tex}
+%\input{Resultados/GSR/Tabelas/gsr_var_blind.tex}
 
-\begin{figure}[!htb]
-    \centering
-    \includegraphics[width = \textwidth]{Resultados/GSR/Figuras/pdf/barplot_gsr_avg_5_scene_blind.pdf}
-    \caption{Barplot of the average SDNN of the blind participants on each method.}
-    \label{fig:barplot_gsr_avg_5_scene_blind}
-\end{figure}
+%\begin{figure}[!htb]
+%    \centering
+%    \includegraphics[width = \linewidth]{Resultados/GSR/Figuras/pdf/barplot_gsr_avg_5_scene_blind.pdf}
+%    \caption{Barplot of the average SDNN of the blind participants on each method.}
+%    \label{fig:barplot_gsr_avg_5_scene_blind}
+%\end{figure}
 
 Figure \ref{fig:boxplot_gsr_avg_blind_scene} presents the boxplot of the percentual variation in the skin conductance for each method. The base method has the lowest variation among all methods. Also, the introduction of vibration increases the method variance. Figure \ref{fig:boxplot_gsr_avg_blind_rounds} presents the GSR grouped by the rounds. In this case, there is no apparent difference between the rounds.
 
 \begin{figure}[!htb]
     \centering
-    \begin{minipage}{0.45\textwidth}
-        \centering
-        \includegraphics[width = \textwidth]{Resultados/GSR/Figuras/pdf/boxplot_gsr_avg_blind_scene.pdf}
-        \caption{Boxplot of the GSR of the blind participants grouped by the methods.}
-        \label{fig:boxplot_gsr_avg_blind_scene}
-    \end{minipage}
-    \begin{minipage}{0.075\textwidth}
-        \hfill
-    \end{minipage}
-    \begin{minipage}{0.45\textwidth}
-        \centering
-        \includegraphics[width = \textwidth]{Resultados/GSR/Figuras/pdf/boxplot_gsr_avg_blind_rounds.pdf}
-        \caption{Boxplot of the GSR of the blind participants grouped by the rounds.}
-        \label{fig:boxplot_gsr_avg_blind_rounds}
-    \end{minipage}
+    \includegraphics[width = 0.75\linewidth]{Resultados/GSR/Figuras/pdf/boxplot_gsr_avg_blind_scene.pdf}
+    \caption{Boxplot of the GSR of the blind participants grouped by the methods.}
+    \label{fig:boxplot_gsr_avg_blind_scene}
 \end{figure}
-
-Figures \ref{fig:qqplot_gsr_two_way_blind} and \ref{fig:residplot_gsr_two_way_blind} shows the QQ plot and the residual distribution. Table \ref{tab:blocanova_gsr_two_way_blind} shows the ANOVA test p-value for the GSR percentual variance. Although the p-value for the method is not below the threshold of 0.05, it is close to it, indicating that probably the GSR is affected by it. 
-
 \begin{figure}[!htb]
     \centering
-    \begin{minipage}{0.45\textwidth}
-        \centering
-        \includegraphics[width = \textwidth]{Resultados/GSR/Figuras/pdf/qqplot_gsr_two_way_blind.pdf}
-        \caption{QQ plot of the SDNN of the blind participants on each method.}
-        \label{fig:qqplot_gsr_two_way_blind}
-    \end{minipage}
-    \begin{minipage}{0.075\textwidth}
-        \hfill
-    \end{minipage}
-    \begin{minipage}{0.45\textwidth}
-        \centering
-        \includegraphics[width = \textwidth]{Resultados/GSR/Figuras/pdf/residplot_gsr_two_way_blind.pdf}
-        \caption{Residual plot of the SDNN of the blind participants on each method.}
-        \label{fig:residplot_gsr_two_way_blind}
-    \end{minipage}
+    \includegraphics[width = 0.75\linewidth]{Resultados/GSR/Figuras/pdf/boxplot_gsr_avg_blind_rounds.pdf}
+    \caption{Boxplot of the GSR of the blind participants grouped by the rounds.}
+    \label{fig:boxplot_gsr_avg_blind_rounds}
 \end{figure}
+
+%Figures \ref{fig:qqplot_gsr_two_way_blind} and \ref{fig:residplot_gsr_two_way_blind} shows the QQ plot and the residual distribution. 
+Table \ref{tab:blocanova_gsr_two_way_blind} shows the ANOVA test p-value for the GSR percentual variance. Although the p-value for the method is not below the threshold of 0.05, it is close to it, indicating that probably the GSR is affected by it. 
+
+%\begin{figure}[!htb]
+%    \centering
+%    \begin{minipage}{0.45\linewidth}
+%        \centering
+%        \includegraphics[width = \linewidth]{Resultados/GSR/Figuras/pdf/qqplot_gsr_two_way_blind.pdf}
+%        \caption{QQ plot of the SDNN of the blind participants on each method.}
+%        \label{fig:qqplot_gsr_two_way_blind}
+%    \end{minipage}
+%    \begin{minipage}{0.075\linewidth}
+%        \hfill
+%    \end{minipage}
+%    \begin{minipage}{0.45\linewidth}
+%        \centering
+%        \includegraphics[width = \linewidth]{Resultados/GSR/Figuras/pdf/residplot_gsr_two_way_blind.pdf}
+%        \caption{Residual plot of the SDNN of the blind participants on each method.}
+%        \label{fig:residplot_gsr_two_way_blind}
+%    \end{minipage}
+%\end{figure}
 
 \input{Resultados/GSR/Tabelas/blocanova_gsr_two_way_blind.tex}
 

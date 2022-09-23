@@ -4,14 +4,14 @@
 %2. Caso vc tenha aplicado a sua contribuição (modelo, produto, processo etc.) em um caso (empresa, laboratório, simulação etc.), apresente a descrição e análise dos resultados. Na seção de discussão cabem as análises de cenários What-If ou de sensibilidade. Exemplo: se o parâmetro X aumentar de N para N+1, o resultado poderia mudar de Y para Z?
 %3. Elabore um parágrafo que conclui o capítulo e introduz o capítulo seguinte.
 
-The purpose of the experiment discussed in this chapter is to investigate the two research questions proposed for this work:
+%The purpose of the experiment discussed in this chapter is to investigate the two research questions proposed for this work:
+%
+%\begin{itemize}%[leftmargin = 3.5em, label = $H_\arabic*$:]
+%    \item Is it possible to evaluate and compare concepts of an assistive device from a human factors' perspective in a virtual environment? What are the main limitations of the use of a virtual reality environment?
+%    \item Do non-BVI users, when deprived of their vision, similarly evaluate assistive device as BVI users?
+%\end{itemize}
 
-\begin{itemize}%[leftmargin = 3.5em, label = $H_\arabic*$:]
-    \item Is it possible to evaluate and compare concepts of an assistive device from a human factors' perspective in a virtual environment? What are the main limitations of the use of a virtual reality environment?
-    \item Do non-BVI users, when deprived of their vision, similarly evaluate assistive device as BVI users?
-\end{itemize}
-
-For this purpose, the experiment described in Section \ref{ch:metodologia} was performed with the following groups:
+The described experiment was performed with the following groups and has an approval of the brazilian ethics commitee.:
 
 \begin{itemize}
     \item Blind group: composed of 4 participants with ages varying from 26 to 56, all male, three of them graduated and one with ongoing graduation. 
@@ -19,47 +19,44 @@ For this purpose, the experiment described in Section \ref{ch:metodologia} was p
     \item Sighted group: composed of 4 participants with ages varying from 22 to 31, three males and one woman, all graduated.
 \end{itemize}
 
-In order to answer the two research questions, this chapter is organized in the following way. Section \ref{sec:results_obj_1} is dedicated to the first question and brings an analysis performed only with data from blind participants. Then, Section \ref{sec:results_obj_2} repeats the same analysis now with data from sighted participants and compares the results with those obtained from blind participants in order to answer the second research question.
-
-In both sections, the data analysis follows the following sequence:
+%In order to answer the two research questions, this chapter is organized in the following way. Section \ref{sec:results_obj_1} is dedicated to the first question and brings an analysis performed only with data from blind participants. Then, Section \ref{sec:results_obj_2} repeats the same analysis now with data from sighted participants and compares the results with those obtained from blind participants in order to answer the second research question.
+%
+%In both sections, 
+The data analysis follows the following sequence:
 
 \begin{itemize}
     \item Analysis of subjective questionnaires:
     \begin{itemize}
-        \item NASA-TLX (National Aeronautics and Space Administration Task Load Index): it aims at assessing the workload perceived by the user in six dimensions, including 'mental demand'. It is expected a decrease in the mental workload between the 'first' to the 'return' round. It is also expected that some guidance methods would differ regarding the required mental workload.
-        \item Adapted SAGAT (Situation Awareness Global Assessment Technique): it aims at assessing the situation awareness and the user's mental map. It is expected that the SAGAT score would increase from the 'first' to the 'return' round. It is also expected that some guidance methods would differ regarding the required situation awareness provided to the user.
-        \item Guidance method's questionnaire: It assess the user experience with each method. It is also expected that some guidance methods would differ regarding the score received in this questionnaire.
+        \item NASA-TLX: %it aims at assessing the workload perceived by the user in six dimensions, including 'mental demand'. It is expected a decrease in the mental workload between the 'first' to the 'return' round. It is also expected that some guidance methods would differ regarding the required mental workload.
+        \item Adapted SAGAT: %it aims at assessing the situation awareness and the user's mental map. It is expected that the SAGAT score would increase from the 'first' to the 'return' round. It is also expected that some guidance methods would differ regarding the required situation awareness provided to the user.
+        \item Guidance method's questionnaire: %It assess the user experience with each method. It is also expected that some guidance methods would differ regarding the score received in this questionnaire.
     \end{itemize}
     \item Analysis of physiological sensors:
     \begin{itemize}
-        \item ECG (Electrocardiogram): it aims at assessing the user workload. Two features are extracted from the ECG signal, heart rate (BPM) and heart rate variance (SDNN). The heart rate is expected to decrease slightly from the 'first' to the 'return' round, while the heart rate variance is expected to increase slightly.
-        \item GSR (Galvanic Skin Response): it aims at assessing the user workload and stress. It is expected that the GSR average would increase at every 'first' round and then a slight decrease in the 'return' round.
+        \item ECG (Electrocardiogram): 
+        
+        Two features are extracted from the ECG signal, heart rate (BPM) and heart rate variance (SDNN).% The heart rate is expected to decrease slightly from the 'first' to the 'return' round, while the heart rate variance is expected to increase slightly.
+        
+        \item GSR (Galvanic Skin Response): %it aims at assessing the user workload and stress. It is expected that the GSR average would increase at every 'first' round and then a slight decrease in the 'return' round.
     \end{itemize}
 \end{itemize}
 
-The solution to the collision detection problem would be the acquisition of additional sensors to monitor the user's hands, arms and legs. However, this solution was not feasible within the time frame available for this work. As a result, the performance was removed from the list of factors to be evaluated. Developing an automatic solution for detecting collision in the virtual world is recommended as future work.
-
-Particularly in the case of this work, an additional round of tests is added to the experiment to investigate the differences between the evaluation performed by BVI users and sighted (non-BVI) users. For this purpose, the experiment is repeated with a set of non-BVI users and the same data is collected. The purpose is to investigate whether or not performing the analysis with non-BVI users could lead to different conclusions.
-
-The experiment has an approval of the ethics commitee.
-
-
-\section{Evaluation of assistive device from a human factors' perspective in a virtual environment}
+\subsection{Evaluation of assistive device from a human factors' perspective in a virtual environment}
 \label{sec:results_obj_1}
 
-\subsection{Subjective data}
+%\subsection{Subjective data}
 \input{Resultados/Nasa/nasa1}
 \input{Resultados/Sagat/sagat1}
 \input{Resultados/Questionario/questionarios1}
 
-\subsection{Physiological data}
+%\subsection{Physiological data}
 
-During the experiment, data from two physiological sensors were captured: ECG and GSR. As commonly found in the literature, these data are used to assess mental workload. The corresponding analysis is presented in this section.
+%During the experiment, data from two physiological sensors were captured: ECG and GSR. As commonly found in the literature, these data are used to assess mental workload. The corresponding analysis is presented in this section.
 
 \input{Resultados/ECG/ecg1.tex}
 \input{Resultados/GSR/gsr1.tex}
 
-\subsection{Final Remarks}
+\subsubsection{Final Remarks}
 
 To summarize the conclusion obtained from the analysis of the data from blind participants, the audio method showed a lower score both for NASA-TLX mental demand and NASA-TLX global score. In contrast, the methods that include vibration achieved higher scores. This probably happened because the participants are already used to using sound to guide themselves, especially environmental sounds. The environment sounds used in the scenes were always the same (telephone ringing, laptop keyboard sounds, exterior noise, door opening and closing). The participants likely felt more relaxed when they only had to focus on the sounds around him/her. This is reinforced by the fact that, during the experiment with the audio method, half of the participants did not ask for any information, or the audio command option was used only a few times.
 
@@ -78,7 +75,7 @@ All the blind participants showed great enthusiasm before, during and after the 
     \item The vibration from the haptic belt was not intense enough.
 \end{itemize}
 
-\section{Comparison between BVI users and sighted users}
+\subsection{Comparison between BVI users and sighted users}
 \label{sec:results_obj_2}
 
 This section investigates the second research question of this work: “do non-BVI users, when deprived of their vision, similarly evaluate assistive devices as BVI users?”. 
@@ -86,17 +83,17 @@ This section investigates the second research question of this work: “do non-B
 To do so, the analysis performed in the previous section is now repeated with the data obtained from sighted participants. However, the data corresponding to the "base" method is omitted, as the daily method used by sighted people is based on their vision.
 
 %\input{Resultados/SubjectiveData2}
-\subsection{Subjective data}
+%\subsection{Subjective data}
 \input{Resultados/Nasa/nasa2}
 \input{Resultados/Sagat/sagat2}
 \input{Resultados/Questionario/questionarios2}
 
-\subsection{Physiological data}
+%\subsection{Physiological data}
 
 \input{Resultados/ECG/ecg2.tex}
 \input{Resultados/GSR/gsr2.tex}
 
-\subsection{Final Remarks}
+\subsubsection{Final Remarks}
 
 The comparison between the results from the blind participants and the sighted participants showed that there are significant differences in the evaluation performed by each group.
 
