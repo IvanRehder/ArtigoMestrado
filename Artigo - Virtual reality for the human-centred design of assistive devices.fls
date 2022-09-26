@@ -1,6 +1,6 @@
-PWD c:\Users\ivan\Documents\Mestrado\Artigo - Virtual reality for the human-centred design of assistive devices
+PWD c:\Users\ivan\Documents\Mestrado\ArtigoMestrado
 INPUT C:\Users\ivan\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\ivan\Documents\Mestrado\Artigo - Virtual reality for the human-centred design of assistive devices\Artigo - Virtual reality for the human-centred design of assistive devices.tex
+INPUT c:\Users\ivan\Documents\Mestrado\ArtigoMestrado\Artigo - Virtual reality for the human-centred design of assistive devices.tex
 OUTPUT Artigo - Virtual reality for the human-centred design of assistive devices.log
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\latex\els-cas-templates\cas-dc.cls
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\latex\els-cas-templates\cas-dc.cls
@@ -957,7 +957,6 @@ INPUT 0 - Front\front.tex
 OUTPUT Artigo - Virtual reality for the human-centred design of assistive devices.abs
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\t1-stixgeneral.tfm
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\t1-stixgeneral-italic.tfm
-INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\t1-stixgeneralsc.tfm
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\t1-stixgeneral.tfm
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\t1-stixgeneral.tfm
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathrm.tfm
@@ -1070,6 +1069,7 @@ INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\latex\inconsolata\t1zi4.fd
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\latex\inconsolata\t1zi4.fd
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\latex\inconsolata\t1zi4.fd
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\inconsolata\t1-zi4r-0.tfm
+INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\t1-stixgeneralsc.tfm
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\t1-stixgeneral-bold.tfm
 INPUT .\1 - Introducao\introducao.tex
 INPUT 1 - Introducao\introducao.tex
@@ -1305,10 +1305,10 @@ INPUT 3 - Resultados\Figuras\boxplot_questionnaire_scene_blind.pdf
 INPUT .\3 - Resultados\Figuras\boxplot_questionnaire_scene_blind.pdf
 INPUT .\3 - Resultados\Figuras\boxplot_questionnaire_scene_blind.pdf
 INPUT .\3 - Resultados\Figuras\boxplot_questionnaire_scene_blind.pdf
-INPUT .\3 - Resultados\\Tabelas\blocanova_questionnaire_blind.tex
-INPUT 3 - Resultados\\Tabelas\blocanova_questionnaire_blind.tex
-INPUT .\3 - Resultados\\Tabelas\blocanova_questionnaire_blind.tex
-INPUT 3 - Resultados\\Tabelas\blocanova_questionnaire_blind.tex
+INPUT .\3 - Resultados\Tabelas\blocanova_questionnaire_blind.tex
+INPUT 3 - Resultados\Tabelas\blocanova_questionnaire_blind.tex
+INPUT .\3 - Resultados\Tabelas\blocanova_questionnaire_blind.tex
+INPUT 3 - Resultados\Tabelas\blocanova_questionnaire_blind.tex
 INPUT .\3 - Resultados\ecg1.tex
 INPUT 3 - Resultados\ecg1.tex
 INPUT .\3 - Resultados\ecg1.tex

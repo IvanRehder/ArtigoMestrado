@@ -14,7 +14,6 @@
 %Type = Techreport
 \bibitem[{wor(2019)}]{world2019world}
 , \bibinfo{year}{2019}.
-\newblock \bibinfo{title}{World report on vision}.
 \newblock \bibinfo{type}{Technical Report}.
 %Type = Article
 \bibitem[{Bourne et~al.(2021)Bourne, Steinmetz, Flaxman, Briant, Taylor,
