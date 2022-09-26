@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Artigo - Virtual reality for the human-centred design of assistive devices.aux
+Reallocating 'name_of_file' (item size: 1) to 17 items.
+The style file: cas-model2-names.bst
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+Database file #1: cas-refs.bib
+Warning--to sort, need author or key in world2019world
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Warning--empty author in world2019world
+Warning--missing institution in world2019world
+Warning--empty pages in bradley2002investigating
+Warning--empty journal in kirner2011using
+You've used 16 entries,
+            2990 wiz_defined-function locations,
+            834 strings with 9817 characters,
+and the built_in function-call counts, 10850 in all, are:
+= -- 823
+> -- 422
+< -- 12
++ -- 167
+- -- 147
+* -- 1139
+:= -- 1554
+add.period$ -- 42
+call.type$ -- 16
+change.case$ -- 127
+chr.to.int$ -- 16
+cite$ -- 23
+duplicate$ -- 825
+empty$ -- 814
+format.name$ -- 188
+if$ -- 2050
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 153
+newline$ -- 89
+num.names$ -- 60
+pop$ -- 320
+preamble$ -- 1
+purify$ -- 112
+quote$ -- 0
+skip$ -- 275
+stack$ -- 0
+substring$ -- 454
+swap$ -- 571
+text.length$ -- 4
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 141
+warning$ -- 5
+while$ -- 71
+width$ -- 0
+write$ -- 227
+(There were 5 warnings)

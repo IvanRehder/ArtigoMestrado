@@ -1,0 +1,148 @@
+\begin{thebibliography}{16}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Techreport
+\bibitem[{wor(2019)}]{world2019world}
+, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{World report on vision}.
+\newblock \bibinfo{type}{Technical Report}.
+%Type = Article
+\bibitem[{Bourne et~al.(2021)Bourne, Steinmetz, Flaxman, Briant, Taylor,
+  Resnikoff, Casson, Abdoli, Abu-Gharbieh, Afshin et~al.}]{bourne2021trends}
+\bibinfo{author}{Bourne, R.}, \bibinfo{author}{Steinmetz, J.D.},
+  \bibinfo{author}{Flaxman, S.}, \bibinfo{author}{Briant, P.S.},
+  \bibinfo{author}{Taylor, H.R.}, \bibinfo{author}{Resnikoff, S.},
+  \bibinfo{author}{Casson, R.J.}, \bibinfo{author}{Abdoli, A.},
+  \bibinfo{author}{Abu-Gharbieh, E.}, \bibinfo{author}{Afshin, A.}, et~al.,
+  \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Trends in prevalence of blindness and distance and
+  near vision impairment over 30 years: an analysis for the global burden of
+  disease study}.
+\newblock \bibinfo{journal}{The Lancet global health} \bibinfo{volume}{9},
+  \bibinfo{pages}{e130--e143}.
+%Type = Inproceedings
+\bibitem[{Bradley and Dunlop(2002)}]{bradley2002investigating}
+\bibinfo{author}{Bradley, N.A.}, \bibinfo{author}{Dunlop, M.D.},
+  \bibinfo{year}{2002}.
+\newblock \bibinfo{title}{Investigating context-aware clues to assist
+  navigation for visually impaired people}, in: \bibinfo{booktitle}{Proceedings
+  of Workshop on Building Bridges: Interdisciplinary Context-Sensitive
+  Computing, University of Glasgow}.
+%Type = Article
+\bibitem[{Bradley and Dunlop(2005)}]{bradley2005experimental}
+\bibinfo{author}{Bradley, N.A.}, \bibinfo{author}{Dunlop, M.D.},
+  \bibinfo{year}{2005}.
+\newblock \bibinfo{title}{An experimental investigation into wayfinding
+  directions for visually impaired people}.
+\newblock \bibinfo{journal}{Personal and Ubiquitous Computing}
+  \bibinfo{volume}{9}, \bibinfo{pages}{395--403}.
+%Type = Article
+\bibitem[{Chiu(2002)}]{chiu2002organizational}
+\bibinfo{author}{Chiu, M.L.}, \bibinfo{year}{2002}.
+\newblock \bibinfo{title}{An organizational view of design communication in
+  design collaboration}.
+\newblock \bibinfo{journal}{Design studies} \bibinfo{volume}{23},
+  \bibinfo{pages}{187--210}.
+%Type = Inproceedings
+\bibitem[{Endsley(1988)}]{endsley1988design}
+\bibinfo{author}{Endsley, M.R.}, \bibinfo{year}{1988}.
+\newblock \bibinfo{title}{Design and evaluation for situation awareness
+  enhancement}, in: \bibinfo{booktitle}{Proceedings of the Human Factors
+  Society annual meeting}, \bibinfo{organization}{Sage Publications Sage CA:
+  Los Angeles, CA}. pp. \bibinfo{pages}{97--101}.
+%Type = Article
+\bibitem[{Endsley(1995)}]{endsley1995measurement}
+\bibinfo{author}{Endsley, M.R.}, \bibinfo{year}{1995}.
+\newblock \bibinfo{title}{Measurement of situation awareness in dynamic
+  systems}.
+\newblock \bibinfo{journal}{Human factors} \bibinfo{volume}{37},
+  \bibinfo{pages}{65--84}.
+%Type = Incollection
+\bibitem[{Endsley(2018)}]{endsley2018automation}
+\bibinfo{author}{Endsley, M.R.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Automation and situation awareness}, in:
+  \bibinfo{booktitle}{Automation and human performance: Theory and
+  applications}. \bibinfo{publisher}{CRC Press}, pp. \bibinfo{pages}{163--181}.
+%Type = Article
+\bibitem[{Farrell(2018)}]{farrell2018learning}
+\bibinfo{author}{Farrell, W.A.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Learning becomes doing: Applying augmented and
+  virtual reality to improve performance}.
+\newblock \bibinfo{journal}{Performance Improvement} \bibinfo{volume}{57},
+  \bibinfo{pages}{19--28}.
+%Type = Article
+\bibitem[{Kirner et~al.(2011)Kirner, Kirner, Wataya and
+  Valente}]{kirner2011using}
+\bibinfo{author}{Kirner, C.}, \bibinfo{author}{Kirner, T.G.},
+  \bibinfo{author}{Wataya, R.S.}, \bibinfo{author}{Valente, J.A.},
+  \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{Using augmented reality to support the understanding
+  of three-dimensional concepts by blind people} .
+%Type = Article
+\bibitem[{Lozano et~al.(2009)Lozano, Kaczmarek and
+  Santello}]{lozano2009electrotactile}
+\bibinfo{author}{Lozano, C.A.}, \bibinfo{author}{Kaczmarek, K.A.},
+  \bibinfo{author}{Santello, M.}, \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{Electrotactile stimulation on the tongue: Intensity
+  perception, discrimination, and cross-modality estimation}.
+\newblock \bibinfo{journal}{Somatosensory \& motor research}
+  \bibinfo{volume}{26}, \bibinfo{pages}{50--63}.
+%Type = Article
+\bibitem[{Moerland-Masic et~al.(2021)Moerland-Masic, Reimer, Bock, Meller and
+  Nagel}]{moerland2021application}
+\bibinfo{author}{Moerland-Masic, I.}, \bibinfo{author}{Reimer, F.},
+  \bibinfo{author}{Bock, T.M.}, \bibinfo{author}{Meller, F.},
+  \bibinfo{author}{Nagel, B.}, \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Application of vr technology in the aircraft cabin
+  design process}.
+\newblock \bibinfo{journal}{CEAS Aeronautical Journal} ,
+  \bibinfo{pages}{1--10}.
+%Type = Article
+\bibitem[{Sanders and McCormick(1998)}]{sanders1998human}
+\bibinfo{author}{Sanders, M.S.}, \bibinfo{author}{McCormick, E.J.},
+  \bibinfo{year}{1998}.
+\newblock \bibinfo{title}{Human factors in engineering and design}.
+\newblock \bibinfo{journal}{Industrial Robot: An International Journal} .
+%Type = Inproceedings
+\bibitem[{Siu et~al.(2020)Siu, Sinclair, Kovacs, Ofek, Holz and
+  Cutrell}]{siu2020virtual}
+\bibinfo{author}{Siu, A.F.}, \bibinfo{author}{Sinclair, M.},
+  \bibinfo{author}{Kovacs, R.}, \bibinfo{author}{Ofek, E.},
+  \bibinfo{author}{Holz, C.}, \bibinfo{author}{Cutrell, E.},
+  \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Virtual reality without vision: A haptic and auditory
+  white cane to navigate complex virtual worlds}, in:
+  \bibinfo{booktitle}{Proceedings of the 2020 CHI conference on human factors
+  in computing systems}, pp. \bibinfo{pages}{1--13}.
+%Type = Book
+\bibitem[{Stanton et~al.(2004)Stanton, Hedge, Brookhuis, Salas and
+  Hendrick}]{stanton2004handbook}
+\bibinfo{author}{Stanton, N.A.}, \bibinfo{author}{Hedge, A.},
+  \bibinfo{author}{Brookhuis, K.}, \bibinfo{author}{Salas, E.},
+  \bibinfo{author}{Hendrick, H.W.}, \bibinfo{year}{2004}.
+\newblock \bibinfo{title}{Handbook of human factors and ergonomics methods}.
+\newblock \bibinfo{publisher}{CRC press}.
+%Type = Inproceedings
+\bibitem[{Wolf et~al.(2019)Wolf, Binder, Miehling and
+  Wartzack}]{wolf2019towards}
+\bibinfo{author}{Wolf, A.}, \bibinfo{author}{Binder, N.},
+  \bibinfo{author}{Miehling, J.}, \bibinfo{author}{Wartzack, S.},
+  \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Towards virtual assessment of human factors: A
+  concept for data driven prediction and analysis of physical user-product
+  interactions}, in: \bibinfo{booktitle}{Proceedings of the Design Society:
+  International Conference on Engineering Design},
+  \bibinfo{organization}{Cambridge University Press}. pp.
+  \bibinfo{pages}{4029--4038}.
+
+\end{thebibliography}

@@ -1,0 +1,147 @@
+%% 
+%% Copyright 2019-2020 Elsevier Ltd
+%% 
+%% This file is part of the 'CAS Bundle'.
+%% --------------------------------------
+%% 
+%% It may be distributed under the conditions of the LaTeX Project Public
+%% License, either version 1.2 of this license or (at your option) any
+%% later version.  The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.2 or later is part of all distributions of LaTeX
+%% version 1999/12/01 or later.
+%% 
+%% The list of all files belonging to the 'CAS Bundle' is
+%% given in the file `manifest.txt'.
+%% 
+%% Template article for cas-dc documentclass for 
+%% double column output.
+
+%\documentclass[a4paper,fleqn,longmktitle]{cas-dc}
+\documentclass[a4paper,fleqn]{cas-dc}
+
+%\input{packages}
+\usepackage[labelsep=colon]{subcaption}
+
+%\usepackage[numbers]{natbib}
+%\usepackage[authoryear]{natbib}
+\usepackage[authoryear,longnamesfirst]{natbib}
+
+%%%Author definitions
+\def\tsc#1{\csdef{#1}{\textsc{\lowercase{#1}}\xspace}}
+\tsc{WGM}
+\tsc{QE}
+\tsc{EP}
+\tsc{PMS}
+\tsc{BEC}
+\tsc{DE}
+%%%
+
+% Uncomment and use as if needed
+%\newtheorem{theorem}{Theorem}
+%\newtheorem{lemma}[theorem]{Lemma}
+%\newdefinition{rmk}{Remark}
+%\newproof{pf}{Proof}
+%\newproof{pot}{Proof of Theorem \ref{thm}}
+
+\begin{document}
+\let\WriteBookmarks\relax
+\def\floatpagepagefraction{1}
+\def\textpagefraction{.001}
+
+\input{0 - Front/front.tex}
+
+\maketitle
+
+%% ---------------------------
+%% Introduction
+%% ---------------------------
+\section{Introduction} %% {{{
+\input{1 - Introducao/introducao.tex}
+
+%% ---------------------------
+%% Methodology
+%% ---------------------------
+\section{Material and methods}
+\label{ch:metodologia}
+\input{2 - Metodologia/metodologia.tex}
+
+%% ---------------------------
+%% Results
+%% ---------------------------
+\section{Results and discussion}
+\label{ch:resultados}
+\input{3 - Resultados/resultados.tex}
+
+%% ---------------------------
+%% Discussion
+%% ---------------------------
+\section{Discussion}
+\label{ch:discussao}
+\input{4 - Discussao/discussao.tex}
+
+%% ---------------------------
+%% Conclusion
+%% ---------------------------
+\section{Conclusion}
+\label{ch:conclusao}
+\input{5 - Conclusao/conclusao.tex}
+
+%\section{Bibliography}
+%
+%Two bibliographic style files (\verb+*.bst+) are provided ---
+%{model1-num-names.bst} and {model2-names.bst} --- the first one can be
+%used for the numbered scheme. This can also be used for the numbered
+%with new options of {natbib.sty}. The second one is for the author year
+%scheme. When  you use model2-names.bst, the citation commands will be
+%like \verb+\citep+,  \verb+\citet+, \verb+\citealt+ etc. However when
+%you use model1-num-names.bst, you may use only \verb+\cite+ command.
+%
+%\verb+thebibliography+ environment.  Each reference is a\linebreak
+%\verb+\bibitem+ and each \verb+\bibitem+ is identified by a label,
+%by which it can be cited in the text:
+%
+%\noindent In connection with cross-referencing and
+%possible future hyperlinking it is not a good idea to collect
+%more that one literature item in one \verb+\bibitem+.  The
+%so-called Harvard or author-year style of referencing is enabled
+%by the \LaTeX{} package {natbib}. With this package the
+%literature can be cited as follows:
+%
+%\begin{enumerate}[\textbullet]
+%\item Parenthetical: \verb+\citep{WB96}+ produces (Wettig \& Brown, 1996).
+%\item Textual: \verb+\citet{ESG96}+ produces Elson et al. (1996).
+%\item An affix and part of a reference:\break
+%\verb+\citep[e.g.][Ch. 2]{Gea97}+ produces (e.g. Governato et
+%al., 1997, Ch. 2).
+%\end{enumerate}
+%
+%In the numbered scheme of citation, \verb+\cite{<label>}+ is used,
+%since \verb+\citep+ or \verb+\citet+ has no relevance in the numbered
+%scheme.  {natbib} package is loaded by {cas-dc} with
+%\verb+numbers+ as default option.  You can change this to author-year
+%or harvard scheme by adding option \verb+authoryear+ in the class
+%loading command.  If you want to use more options of the {natbib}
+%package, you can do so with the \verb+\biboptions+ command.  For
+%details of various options of the {natbib} package, please take a
+%look at the {natbib} documentation, which is part of any standard
+%\LaTeX{} installation.
+
+%\appendix
+%\section{My Appendix}
+%Appendix sections are coded under \verb+\appendix+.
+
+%\verb+\printcredits+ command is used after appendix sections to list 
+%author credit taxonomy contribution roles tagged using \verb+\credit+ in frontmatter.
+
+%\printcredits
+
+%% Loading bibliography style file
+%\bibliographystyle{model1-num-names}
+\bibliographystyle{cas-model2-names}
+
+% Loading bibliography database
+\bibliography{cas-refs}
+
+\end{document}
+
