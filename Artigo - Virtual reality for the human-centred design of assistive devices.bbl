@@ -11,10 +11,6 @@
 \providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
 \providecommand{\bibinfo}[2]{#2}
 \ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
-%Type = Techreport
-\bibitem[{wor(2019)}]{world2019world}
-, \bibinfo{year}{2019}.
-\newblock \bibinfo{type}{Technical Report}.
 %Type = Article
 \bibitem[{Bourne et~al.(2021)Bourne, Steinmetz, Flaxman, Briant, Taylor,
   Resnikoff, Casson, Abdoli, Abu-Gharbieh, Afshin et~al.}]{bourne2021trends}
@@ -143,5 +139,9 @@
   International Conference on Engineering Design},
   \bibinfo{organization}{Cambridge University Press}. pp.
   \bibinfo{pages}{4029--4038}.
+%Type = Article
+\bibitem[{{World Health Organization et al.}(2019)}]{world2019world}
+\bibinfo{author}{{World Health Organization et al.}}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{World report on vision} .
 
 \end{thebibliography}

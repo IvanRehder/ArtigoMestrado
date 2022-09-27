@@ -53,9 +53,6 @@
 
 \maketitle
 
-%% ---------------------------
-%% Introduction
-%% ---------------------------
 \section{Introduction} %% {{{
 \input{1 - Introducao/introducao.tex}
 
@@ -69,7 +66,7 @@
 %% ---------------------------
 %% Results
 %% ---------------------------
-\section{Results and discussion}
+\section{Results}
 \label{ch:resultados}
 \input{3 - Resultados/resultados.tex}
 
@@ -87,54 +84,13 @@
 \label{ch:conclusao}
 \input{5 - Conclusao/conclusao.tex}
 
-%\section{Bibliography}
-%
-%Two bibliographic style files (\verb+*.bst+) are provided ---
-%{model1-num-names.bst} and {model2-names.bst} --- the first one can be
-%used for the numbered scheme. This can also be used for the numbered
-%with new options of {natbib.sty}. The second one is for the author year
-%scheme. When  you use model2-names.bst, the citation commands will be
-%like \verb+\citep+,  \verb+\citet+, \verb+\citealt+ etc. However when
-%you use model1-num-names.bst, you may use only \verb+\cite+ command.
-%
-%\verb+thebibliography+ environment.  Each reference is a\linebreak
-%\verb+\bibitem+ and each \verb+\bibitem+ is identified by a label,
-%by which it can be cited in the text:
-%
-%\noindent In connection with cross-referencing and
-%possible future hyperlinking it is not a good idea to collect
-%more that one literature item in one \verb+\bibitem+.  The
-%so-called Harvard or author-year style of referencing is enabled
-%by the \LaTeX{} package {natbib}. With this package the
-%literature can be cited as follows:
-%
-%\begin{enumerate}[\textbullet]
-%\item Parenthetical: \verb+\citep{WB96}+ produces (Wettig \& Brown, 1996).
-%\item Textual: \verb+\citet{ESG96}+ produces Elson et al. (1996).
-%\item An affix and part of a reference:\break
-%\verb+\citep[e.g.][Ch. 2]{Gea97}+ produces (e.g. Governato et
-%al., 1997, Ch. 2).
-%\end{enumerate}
-%
-%In the numbered scheme of citation, \verb+\cite{<label>}+ is used,
-%since \verb+\citep+ or \verb+\citet+ has no relevance in the numbered
-%scheme.  {natbib} package is loaded by {cas-dc} with
-%\verb+numbers+ as default option.  You can change this to author-year
-%or harvard scheme by adding option \verb+authoryear+ in the class
-%loading command.  If you want to use more options of the {natbib}
-%package, you can do so with the \verb+\biboptions+ command.  For
-%details of various options of the {natbib} package, please take a
-%look at the {natbib} documentation, which is part of any standard
-%\LaTeX{} installation.
+%% ---------------------------
+%% Acknowledgments
+%% ---------------------------
+\section{Acknowledgments}
+\label{ch:acknowledgments}
 
-%\appendix
-%\section{My Appendix}
-%Appendix sections are coded under \verb+\appendix+.
-
-%\verb+\printcredits+ command is used after appendix sections to list 
-%author credit taxonomy contribution roles tagged using \verb+\credit+ in frontmatter.
-
-%\printcredits
+This work was supported by CAPES.
 
 %% Loading bibliography style file
 %\bibliographystyle{model1-num-names}
